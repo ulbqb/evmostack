@@ -1,16 +1,19 @@
 Admin:
-Successfully created new keypair.
-Address:     0xAE427ac0e8798123a43D9a77430a0A6112e60120
-Private key: 0xeb9c86d23e50db8939e98d0c7e6c5e3ec6c1e5ae45f9f3d278adfc4b2f441c81
+Cosm Address:   evmos14ep84s8g0xqj8fpanfm5xzs2vyfwvqfqxkeqx5
+Eth Address:    0xAE427ac0e8798123a43D9a77430a0A6112e60120
+Private key:    0xeb9c86d23e50db8939e98d0c7e6c5e3ec6c1e5ae45f9f3d278adfc4b2f441c81
+
 Proposer:
-Successfully created new keypair.
-Address:     0x81A0D658054cD5C6Da920D6a586411eb45447349
-Private key: 0x2d9a8ed7c677edd8f252f30307af88fa379dbc77cf9239c55c00f7049cd2ccf2
+Cosm Address:   evmos1sxsdvkq9fn2udk5jp449seq3adz5gu6fsv3dck
+Eth Address:    0x81A0D658054cD5C6Da920D6a586411eb45447349
+Private key:    0x2d9a8ed7c677edd8f252f30307af88fa379dbc77cf9239c55c00f7049cd2ccf2
+
 Batcher:
-Successfully created new keypair.
-Address:     0x1453f987d7A9c663442196F18C8CDb655D1BccD6
-Private key: 0x229aac76b11fbe7d847ed6fdc86af87bbfeeec26b0e3ce2da99f37059ab56b13
+Cosm Address:   evmos1z3flnp7h48rxx3ppjmccerxmv4w3hnxkwan94l
+Eth Address:    0x1453f987d7A9c663442196F18C8CDb655D1BccD6
+Private key:    0x229aac76b11fbe7d847ed6fdc86af87bbfeeec26b0e3ce2da99f37059ab56b13
+
 Sequencer:
-Successfully created new keypair.
-Address:     0xD3f0E6f451D8F07dfE45c82EDa3B42ea6d420229
-Private key: 0xb00c9096eebc0c1a023fa9b6ae9df984007b2bb11cf1477002bc31b6ae72fac8
+Cosm Address:   evmos160cwdaz3mrc8mlj9eqhd5w6zafk5yq3fy859ez
+Eth Address:    0xD3f0E6f451D8F07dfE45c82EDa3B42ea6d420229
+Private key:    0xb00c9096eebc0c1a023fa9b6ae9df984007b2bb11cf1477002bc31b6ae72fac8
