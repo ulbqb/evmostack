@@ -1,6 +1,8 @@
 #!/bin/bash
 
 cd op-geth
+rm -rf datadir
+mkdir -p datadir
 ./build/bin/geth \
         --datadir ./datadir \
         --http \

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source /root/.bashrc
+source /root/.cargo/env
+
 cd optimism/op-node
 
 go run cmd/main.go genesis l2 \

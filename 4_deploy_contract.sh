@@ -11,8 +11,9 @@ cp data/getting-started.json optimism/packages/contracts-bedrock/deploy-config/g
 cd optimism
 cd packages/contracts-bedrock
 FINBLOCK=$(cast block finalized -f number)
-sed -i "s/TIMESTAMP/$(cast block $FINBLOCK -f timestamp)/g" ./deploy-config/getting-started.json
-sed -i "s/BLOCKHASH/$(cast block $FINBLOCK -f hash)/g" deploy-config/getting-started.json
+sed "s/TIMESTAMP/$(cast block $FINBLOCK -f timestamp)/g" deploy-config/getting-started.json > deploy-config/getting-started-tmp.json
+sed "s/BLOCKHASH/$(cast block $FINBLOCK -f hash)/g" deploy-config/getting-started-tmp.json > deploy-config/getting-started.json
+rm deploy-config/getting-started-tmp.json
 mkdir -p deployments/getting-started
 forge script scripts/Deploy.s.sol:Deploy --private-key $PRIVATE_KEY --broadcast --rpc-url $ETH_RPC_URL --slow
 forge script scripts/Deploy.s.sol:Deploy --sig 'sync()' --private-key $PRIVATE_KEY --broadcast --rpc-url $ETH_RPC_URL
